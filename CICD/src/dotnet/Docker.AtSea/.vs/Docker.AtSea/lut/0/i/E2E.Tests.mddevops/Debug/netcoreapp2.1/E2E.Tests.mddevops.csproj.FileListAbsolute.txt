@@ -1,0 +1,14 @@
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.deps.json
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.runtimeconfig.json
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.runtimeconfig.dev.json
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.csprojAssemblyReference.cache
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.csproj.CoreCompileInputs.cache
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.AssemblyInfoInputs.cache
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.AssemblyInfo.cs
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.csproj.CopyComplete
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\E2E.Tests.mddevops\Debug\netcoreapp2.1\E2E.Tests.mddevops.dll

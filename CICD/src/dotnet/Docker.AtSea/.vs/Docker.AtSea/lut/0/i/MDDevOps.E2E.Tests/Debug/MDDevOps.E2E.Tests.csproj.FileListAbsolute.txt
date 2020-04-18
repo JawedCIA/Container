@@ -1,0 +1,15 @@
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\NUnit3.TestAdapter.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\nunit.engine.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\nunit.engine.api.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\Mono.Cecil.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\MDDevOps.E2E.Tests.dll.config
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\b\MDDevOps.E2E.Tests\bin\Debug\MDDevOps.E2E.Tests.dll
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\MDDevOps.E2E.Tests\Debug\MDDevOps.E2E.Tests.csprojAssemblyReference.cache
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\MDDevOps.E2E.Tests\Debug\MDDevOps.E2E.Tests.csproj.CoreCompileInputs.cache
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\MDDevOps.E2E.Tests\Debug\MDDevOps.E2E.Tests.csproj.CopyComplete
+C:\WorkSpace\AzureDevOpsWorkspace\Container\CICD\src\dotnet\Docker.AtSea\.vs\Docker.AtSea\lut\0\i\MDDevOps.E2E.Tests\Debug\MDDevOps.E2E.Tests.dll

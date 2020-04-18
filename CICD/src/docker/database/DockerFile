@@ -1,0 +1,31 @@
+# escape=`
+# Build DACPAC Image
+ARG sqltool=mddevops/sqltool:dotnet-sdk-4.8-core-ltsc2019-ssdt-10.0.61804.210
+ARG sqlexpress2019=mddevops/sqlserver:2019.express-core
+
+FROM $sqltool AS builder
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+WORKDIR c:\src\AtSeaDatabase
+COPY dotnet\Docker.AtSea\Docker.AtSea.Database .
+
+RUN msbuild Docker.AtSea.Database.sqlproj `
+	/p:OutputPath=c:\out `
+	/p:SQLDBExtensionsRefPath="C:\microsoft.data.tools.msbuild.$env:SQLTools_Version\lib\net46" `
+	/p:SqlServerRedistPath="C:\microsoft.data.tools.msbuild.$env:SQLTools_Version\lib\net46";
+
+# Build Image
+FROM $sqlexpress2019
+
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+ENV DATA_PATH="C:\data" `
+    SA_PASSWORD="AtSe@!"
+	
+VOLUME ${DATA_PATH}
+WORKDIR C:\init
+
+COPY docker/database/Initialize-Database.ps1 .
+CMD powershell ./Initialize-Database.ps1 -sa_password $env:sa_password -data_path $env:data_path -Verbose
+
+COPY --from=builder ["C:\\Program Files\\Microsoft SQL Server\\150\\DAC", "C:\\Program Files\\Microsoft SQL Server\\150\\DAC"]
+COPY --from=builder c:\out\ .
