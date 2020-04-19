@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  
+  atseadb:
+    image: mddevops/sample:atseadb-${VERSION_NUMBER}
+
+  atseaapp.mddevops:
+    image: mddevops/sample:atseaapi-${VERSION_NUMBER}
+
+  atseaapp-e2e-tests:
+    image: mddevops/sample:atseaapp-e2e-tests-${VERSION_NUMBER}

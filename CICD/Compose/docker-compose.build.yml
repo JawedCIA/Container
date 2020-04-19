@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+
+  atseadb:
+    build:
+      context: ../src
+      dockerfile: ./docker/database/Dockerfile
+  
+  atseaapp.mddevops:
+    build:
+      context: ../
+      dockerfile: ./docker/api/Dockerfile
+  
+  atseaapp-e2e-tests:
+    build:
+      context: ../
+      dockerfile: ./docker/e2e-tests/Dockerfile

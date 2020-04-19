@@ -1,0 +1,46 @@
+version: '3.7'
+
+services:
+
+ reverse-proxy:
+  image: sixeyed/traefik:v1.7.8-windowsservercore-ltsc2019
+  command: --docker --docker.endpoint=npipe:////./pipe/docker_engine --api
+  ports:
+   - "80:80"
+   - "8080:8080"
+  volumes:
+   - type: npipe
+     source: \\.\pipe\docker_engine
+     target: \\.\pipe\docker_engine      
+  labels:
+   - ci  
+  networks:
+   - mddevops-net
+    
+ atseadb:
+  image: mddevops/sample:atseadb
+  environment:
+   - sa_password=AtSe@!
+  labels:
+   - ci
+  networks:
+   - mddevops-net    
+    
+ atseaapp.mddevops:
+  image: mddevops/sample:atseaapi
+  labels:
+   - "traefik.frontend.rule=Host:atseaapp.mddevops;PathPrefix:/"
+   - "traefik.frontend.priority=1"
+   - "traefik.backend.loadbalancer.stickiness=true"
+   - "traefik.port=80"
+   - ci
+  depends_on:
+   - atseadb
+  networks:
+   - mddevops-net
+ 
+networks:
+ mddevops-net:
+  external:
+   name: nat
+ 
