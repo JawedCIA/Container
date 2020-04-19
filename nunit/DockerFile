@@ -1,0 +1,19 @@
+# escape=`
+FROM mcr.microsoft.com/dotnet/framework/runtime:4.8
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+ENV NUGET_PATH="C:\nuget" `
+    NUNIT_PATH="C:\NUnit.ConsoleRunner.3.11.1\tools" `
+	NUGET_URL="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
+
+RUN $env:PATH = $env:NUGET_PATH + ';' + $env:NUNIT_PATH + ';' + $env:PATH; `
+	[Environment]::SetEnvironmentVariable('PATH', $env:PATH, [EnvironmentVariableTarget]::Machine);
+
+RUN Install-PackageProvider -Name chocolatey -RequiredVersion 2.8.5.130 -Force;
+	# dotnet add package NuGet.CommandLine --version 5.4.0; `
+
+RUN mkdir c:\nuget; `
+    IWR -Uri $env:NUGET_URL -useb -OutFile c:\nuget\nuget.exe;
+RUN nuget install NUnit.ConsoleRunner -Version 3.11.1;
+
+ENTRYPOINT ["powershell"]
